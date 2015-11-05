@@ -1,0 +1,78 @@
+html{
+	background-color: black;
+}
+/*font-family:写一串字体，网页会帮你从本地找，然后顺次找下去，如果没有就用默认字体*/
+/*@font-face是我定义的一种字体，此时字体从服务器加载，所以所有用户都可以看到一样的*/
+@font-face {
+font-family:visitor;
+src: url('visitor.ttf');
+}
+button{
+	border: none;
+	border-radius: 0;
+	font-family:'visitor';
+	width: 200px;
+	height: 50px;
+	font-size: 50px;
+	color:white;
+	background-color: black;
+}
+#canvasContainer{
+	margin-left: 25%;
+}
+#selectContainer{
+	margin-left: 30%;
+	margin-top: 20px;
+}
+.select{
+	height:50px;
+	width: 600px;
+	margin: 5px 0;
+	background-color: white;
+	color:black;
+	font-family:'visitor';
+	font-size: 20px;
+	/*字体本身的容器，行高50px，可以让字体垂直居中*/
+	line-height: 50px;
+	/*当字体本身长度太长，溢出不显示／滚动／跳出div(default)*/
+	/*现在的情况超出的时候能看到中间部分的字体，因为字体是居中的*/
+	overflow: hidden;
+	/*让用户不能选中字体*/
+	user-select:none;
+	-webkit-user-select:none;
+	text-align: center;
+}
+/*当这个类被赋给同一个div时，覆盖之前类的属性*/
+.selected{
+	background-color: black;
+	color:white;
+	border: 1px solid white;
+}
+.select:active{
+	background-color: white;
+	color:black;
+}
+/*发光框消失*/
+button:focus{
+	outline:0;
+}
+button:active{
+	background-color: white;
+	color:black;
+}
+/*去掉了边框，保留了底部的一条*/
+input{
+	margin-left:30%; 
+	border: none;
+	font-family:'visitor';
+	width: 400px;
+	height: 50px;
+	font-size: 50px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+input:focus{
+	outline:0;
+}

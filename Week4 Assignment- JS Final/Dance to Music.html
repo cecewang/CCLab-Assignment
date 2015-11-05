@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Dance to Music - Be Cheerful!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <b style="width: 100%; text-align: center;">
+        This popup should automatically close in a few seconds
+    </b> -->
+    <div id="canvasContainer"></div>
+    <!-- placeholder是输入框自带的功能，可以完成默认字，点击消失等等一系列功能 -->
+    <input id="searchBox" placeholder="Search for Music..." type="text"></input>
+    <button id="searchButton"> Search </button>
+    <div id="selectContainer">
+    </div>
+    <!-- <audio id = "myAudio" controls = "controls"></audio> -->
+    <!-- 加载顺序：用到的库要写在main之前；p5可能用到jQuery，所以它一般写在最前面 -->
+    <script src="js/jquery/jquery-2.1.4.min.js"></script>
+    <script src="http://connect.soundcloud.com/sdk-2.0.0.js"></script>
+    <script src="js/p5.js"></script>
+    <script src="js/addons/p5.sound.js"></script>
+    <script src="js/action.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
