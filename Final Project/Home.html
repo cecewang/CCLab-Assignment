@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Smokey Shack</title>
+</head>
+
+<body>
+    <!-- <audio id = "no" src="Popping.mp3">
+    </audio> -->
+    <audio id = "no">
+    <source src="Popping.mp3" type="audio/mp3" />
+    </audio>
+    <div id="home">
+        <div class='sign'>
+            <img src='pics/7.png'>
+        </div>
+        
+        <div class='person'>
+            <img src='1.png'>
+        </div>
+        <ul class='smalltext'>
+            <li id='st1'>Answer</li>
+            <li id='st2'>Gain</li>
+            <li id='st3'>Meditate</li>
+        </ul>
+        <ul class='bigtext'>
+            <li id='bt1'>Questions,</li>
+            <li id='bt2'>Awareness,</li>
+            <li id='bt3'>Smoking</li>
+        </ul>
+        <a id="next">
+            <img src="next.png">
+        </a>
+    </div>
+
+    <div id="q">
+        <canvas id="canvas"></canvas>
+        <div id="questionArea">
+            <p class='qtext' id="question">
+                Do You Smoke Now?
+            </p>
+            <img id = "dataimage">
+            </img>
+            <ul class='atext' id="answer">
+                <li id="at1">
+                    <div class='atext-line' id='atl1'>
+                    </div>
+                    <span>Yes</span>
+                </li>
+                <li id="at2">
+                    <div class='atext-line' id='atl2'>
+                    </div>
+                    <span>No</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="script.js"></script>
+    <script src="smoke.js"></script>
+</body>
+
+</html>

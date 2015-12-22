@@ -1,0 +1,183 @@
+[{
+	"questionId": 0,
+	"question":"Do You Currently Have Smoking Habits Now?",
+	"optionA":"Yes",
+	"optionB":"No",
+	"questionIdforA":1,
+	"questionIdforB":7
+},{
+	"questionId": 1,
+	"question":"There are 1.1 billion tobacco users in the world. Worldwide, tobacco use causes nearly 6 million deaths per year.",
+	"optionA":"Continue Answering",
+	"optionB":"I would like to quit",
+	"questionIdforA":3,
+	"questionIdforB":7,
+	"dataimage":"Q1.gif"
+},{
+	"questionId": 2,
+	"question":"There are 1.1 billion tobacco users in the world. Worldwide, tobacco use causes nearly 6 million deaths per year.",
+	"optionA":"Continue Answering",
+	"optionB":"I would like to quit",
+	"questionIdforA":3,
+	"questionIdforB":7
+},{
+	"questionId": 3,
+	"question":"Did You Feel Good About Your First Try Of Smoking?",
+	"optionA":"Yes",
+	"optionB":"No",
+	"questionIdforA":4,
+	"questionIdforB":4
+},{
+	"questionId": 4,
+	"question":"Each day, more than 3,200 people under 18 smoke their first cigarette, and approximately 2,100 youth and young adults become daily smokers.",
+	"optionA":"Undecided",
+	"optionB":"Quit",
+	"questionIdforA":5,
+	"questionIdforB":7
+},{
+	"questionId": 5,
+	"question":"Does Keeping Smoking Still Make You Feel Good? Did It Ever Make You Feel Sick?",
+	"optionA":"I Feed Sick Sometimes After Smoking.",
+	"optionB":"Always Good!",
+	"questionIdforA":6,
+	"questionIdforB":6
+},{
+	"questionId": 6,
+	"question":"One person DIES every 6 seconds from a tobacco-related disease.",
+	"optionA":"Undecided",
+	"optionB":"Take Action",
+	"questionIdforA":20,
+	"questionIdforB":8
+},{
+	"questionId": 7,
+	"question":"Thank You, Please Keep Away From Tabacco Forever.",
+	"optionA":"The End",
+	"optionB":"Start Over",
+	"questionIdforB":0
+},{
+	"questionId": 8,
+	"question":"How About People Around You? Did They Feel Good As Well Without Complaining About Your Smoking?",
+	"optionA":"Yes",
+	"optionB":"No",
+	"questionIdforA":9,
+	"questionIdforB":9
+},{
+	"questionId": 9,
+	"question":"More than 600,000 NON-SMOKERS DIE each year from secondhand smoke worldwide.",
+	"optionA":"Undecided",
+	"optionB":"Take Action",
+	"questionIdforA":10,
+	"questionIdforB":23
+},{
+	"questionId": 10,
+	"question":"Did You Ever Calculate How Much You Have Spent Or Will Spend On Smoking?",
+	"optionA":"Yes",
+	"optionB":"No",
+	"questionIdforA":11,
+	"questionIdforB":11
+},{
+	"questionId": 11,
+	"question":"At today’s prices, if you smoke one pack of cigarettes per day for 10 years, you’ll spend almost $77,000 – easily enough to buy a new car.",
+	"optionA":"Undecided",
+	"optionB":"Take Action",
+	"questionIdforA":24,
+	"questionIdforB":12
+},{
+	"questionId": 12,
+	"question":"Have You Ever Thought About The Big Amount Of Money Which Will Be Spent On Your Smoking-Related Disease?",
+	"optionA":"I'd Like To Try Quitting Smoking.",
+	"optionB":"I don't care about the disease or the money.",
+	"questionIdforA":13,
+	"questionIdforB":13
+},{
+	"questionId": 13,
+	"question":"At least 6–8% of annual personal health expenditures in the United States is devoted to treating diseases caused by smoking.",
+	"optionA":"Undecided",
+	"optionB":"Take Action",
+	"questionIdforA":14,
+	"questionIdforB":23
+},{
+	"questionId": 14,
+	"question":"Are You A Female? ",
+	"optionA":"Yes",
+	"optionB":"No",
+	"questionIdforA":15,
+	"questionIdforB":17
+},{
+	"questionId": 15,
+	"question":"Have You Thought About The Terrible Effects Of Your Smoking To Your Kids Or Children Around You, No Matter Psychological Or Behavioral? ",
+	"optionA":"Yes, I've dismissed them before, I'd like to try quitting for children around me.",
+	"optionB":"I don't care. / There're no kids around me.",
+	"questionIdforA":16,
+	"questionIdforB":16
+},{
+	"questionId": 16,
+	"question":"More than 100,000 of the smoking-caused deaths over the last 50 years were of babies who died from SIDS.",
+	"optionA":"Undecided",
+	"optionB":"Take Action",
+	"questionIdforA":19,
+	"questionIdforB":23
+},{
+	"questionId": 17,
+	"question":"Do You Feel Impotent More Frequently Than Before? Smoking Is Largely Related To The Chemicals Transportation in Blood Vessels Which Directly Affect The Nerves In Penis.",
+	"optionA":"Yes",
+	"optionB":"No",
+	"questionIdforA":18,
+	"questionIdforB":18
+},{
+	"questionId": 18,
+	"question":"18 million males over age 20 suffer from erectile dysfunction (ED). Smoking is a cause of ED, as cigarette smoke alters blood flow necessary for an erection.",
+	"optionA":"Undecided",
+	"optionB":"Take Action",
+	"questionIdforA":19,
+	"questionIdforB":19
+},{
+	"questionId": 19,
+	"question":"Were You Ever Rejected By Landlords Or Employers Because Of Smoking?",
+	"optionA":"Yes",
+	"optionB":"No, never",
+	"questionIdforA":24,
+	"questionIdforB":25
+},{
+	"questionId": 20,
+	"question":"Why Do You Sacrifice Your Health To Be Beneficial To Big Tobacco? How About Trying Quitting Smoking And Do SomeThing You Love Instead?",
+	"optionA":"Yes",
+	"optionB":"Definitely No",
+	"questionIdforA":21,
+	"questionIdforB":21
+},{
+	"questionId": 21,
+	"question":"Tobacco industry revenue was $664 BILLION in 2010.",
+	"optionA":"Undecided",
+	"optionB":"Take Action",
+	"questionIdforA":0,
+	"questionIdforB":23
+},{
+	"questionId": 22,
+	"question":"Consider For Your Family And Friends. Would You Like To Accompany Your Family 10 More Years By Quitting Smoking?",
+	"optionA":"Yes",
+	"optionB":"No",
+	"questionIdforA":15,
+	"questionIdforB":5
+},{
+	"questionId": 23,
+	"question":"Quit Smoking And Get Along With Your Beloved And Yourself",
+	"optionA":"Start Over",
+	"optionB":"",
+	"questionIdforA":0,
+	"questionIdforB":0
+},{
+	"questionId": 24,
+	"question":"How About Qutting Smoking To Get More Chance?",
+	"optionA":"Yes!",
+	"optionB":"No, that's not my fault!",
+	"questionIdforA":23,
+	"questionIdforB":25
+},{
+	"questionId": 25,
+	"question":"Come On, Don't Be So Stubborn, Just Try To Do SomeThing Else Instead Of Smoking When You Desire To Do So Next Time, Okay?",
+	"optionA":"Yes!",
+	"optionB":"No, I think I am good now",
+	"questionIdforA":24,
+	"questionIdforB":24
+}]

@@ -1,0 +1,176 @@
+body {	
+	margin: 0;
+	height: 100%;
+}
+#canvas {
+    position:absolute;
+    /*height: 1500px;*/
+    /*height: 100%;*/
+    width: 100%;
+}
+
+#home {
+	background-color: #e07b69;
+	border-width: 1px;
+	border-style: solid;
+	border-color: white;
+	height: 768px;
+	width: 100%;
+}
+.sign {
+	position: fixed;
+	float: left;
+	width: 128px;
+	height: 128px;
+	margin: 0;
+	padding-top: 3%;
+	z-index: 100;
+}
+
+.person {
+	position: relative;
+	float: left;
+	width: 304px;
+	height: 521px;
+	margin: 0;
+	padding-left: 16%;
+}
+.person img{
+	position: relative;
+	float: left;
+	height: 90%;
+	width: auto;
+	padding-left: 22%;
+	padding-top: 40%;	
+}
+ul {
+	margin-top: 0;
+}
+ul li {
+	list-style: none;
+}
+.smalltext {
+	position: absolute;
+	padding-left: 54%;
+	font-family: 'Avenir Next';
+	font-size: 42px;
+	font-weight: 100;
+	color: #ffffff;
+	padding-top: 4.5%;
+}
+.smalltext li {
+	padding-top: 58%;
+}
+
+.bigtext {
+	position: relative;
+	padding-left: 54.7%;
+	font-family: 'Eurostile';
+	font-size: 64px;
+	font-weight: 400;
+	color: #ffffff;
+	padding-top: 10%;
+}
+#bt1 {
+	padding-top: 14.5%;
+}
+#bt2 {
+	padding-top: 15.5%;
+}
+#bt3 {
+	padding-top: 16.5%;
+}
+#next{
+  text-align: center;
+  position: absolute;
+  right: 48%;
+  margin-bottom: 0%;
+  width: 8%;
+  height: auto;
+	
+}
+#next img {
+	animation:
+  	sizechange 1s infinite;
+}
+@keyframes sizechange {
+	0% {width: 46%; height: 46%; left: 27%;}
+	10% {width: 43%; height: 43%; left: 28.5%;}
+	20% {width: 40%; height: 40%; left: 30%;}
+	30% {width: 37%; height: 37%; left: 31.5%;}
+	40% {width: 34%; height: 34%; left: 33%;}
+	50% {width: 30%; height: 30%; left: 35%;}
+	60% {width: 34%; height: 34%; left: 33%;}
+	70% {width: 37%; height: 37%; left: 31.5%;}
+	80% {width: 40%; height: 40%; left: 30%;}
+	90% {width: 43%; height: 43%; left: 28.5%;}
+	100% {width: 46%; height: 46%; left: 27%;}
+}
+
+#q {
+	background: url("pics/back again.png");
+	height: 768px;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+}
+#questionArea{
+	position: absolute;
+	width: 100%;
+}
+#questionArea img {
+	position: relative;
+	left: 750px;
+	top:50px;
+}
+.qtext {
+	/*width: 1px;*/
+	/*position: absolute;*/
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: center;
+	font-family: 'Eurostile';
+	font-size: 50px;
+	font-weight: 400;
+	color: #213f3d;
+	padding-top: 10%;
+}
+.atext {
+	text-align: center;
+	padding-left: 30%;
+	padding-right: 30%;
+	font-family: 'Avenir';
+	font-size: 32px;
+	font-weight: 100;
+	color: #213f3d;
+	padding-top: 2%;
+}
+.atext li {
+	/*width: 70px;*/
+	text-align: center;
+	padding-top: 6%;
+	/*border-bottom: 2px solid black;*/
+}
+#at1{
+	position: relative;
+}
+#at2{
+	position: relative;
+}
+#atl1 {
+	top:0;
+	left: 25%;
+	width: 0;
+	height: 100%;
+	position: absolute;
+	border-bottom: 2px solid black;
+}
+#atl2 {
+	top:0;
+	left: 25%;
+	width: 0;
+	height: 100%;
+	position: absolute;
+	border-bottom: 2px solid black;
+}
